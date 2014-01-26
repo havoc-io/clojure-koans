@@ -26,6 +26,10 @@
   (= "Bambi eats veggies."
      (diet {:species "deer" :name "Bambi" :age 1 :eater :herbivore}))
 
+  "Animals have different names"
+  (= "Thumper eats veggies."
+    (diet {:species "rabbit" :name "Thumper" :age 1 :eater :herbivore}))
+
   "Different methods are used depending on the dispatch function result"
   (= "Simba eats animals."
      (diet {:species "lion" :name "Simba" :age 1 :eater :carnivore}))

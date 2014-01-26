@@ -33,9 +33,9 @@
                         :else :your-road)))
 
   "Or your fate may be sealed"
-  (= 'doom (if-not (zero? 0)
+  (= 'more-doom (if-not (zero? 0)
           'doom
-          'doom))
+          'more-doom))
 
   "In case of emergency, sound the alarms"
   (= :sirens
